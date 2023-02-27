@@ -1,0 +1,64 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.full {
+	width: 60%;
+	max-width: 1300px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+    border-left: 6px solid green;
+    border-top: 6px solid green;
+    border-right: 6px solid green;
+    border-bottom: 6px solid green;
+    height: 2600px;
+}
+.left {
+	position: initial;
+	background-color: #6b9999;
+	padding: 10px;
+
+}
+.right {
+	position: initial;
+	background-color: white;
+	padding: 20px;
+
+}
+
+.image, .Contact, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 20px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
+.Contact{
+	color: aliceblue;
+	text-align: center;
+}
+.line{
+	color: aliceblue;
+	border: 4px solid white;
+	text-align: center;
+}
+hr{
+	color: aliceblue;
+	border: 2px solid white;
+}
+.head {
+    background: #ebc9bb;
+    position: relative;
+	padding: 2px;
+}
